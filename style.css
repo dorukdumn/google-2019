@@ -1,0 +1,183 @@
+header{
+    margin-top: 15px;
+}
+a:hover{
+    border-bottom:1px solid black;
+}
+.left-navbar{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    
+}
+.left-navbar li{
+    padding: 0px 0px 0px 15px;
+    list-style: none;
+    display: inline-block;
+}
+.left-navbar a{
+    
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+}
+.right-navbar{
+    display: inline-block;
+    width: 48%;
+    padding: 0px 0px 0px 15px;
+    text-align: right;
+    margin: 0px;
+}
+.right-navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px 0px 15px;
+}
+.right-navbar a{
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    
+}
+.right-navbar button{
+    margin: 0px 0px 0px 15px;
+}
+
+.logo{
+    text-align: center;
+    margin: 150px 0px 30px 0px;
+}
+.search-border{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    width: 482px;
+    height: 44px;
+    padding: 5px 8px 0px 14px;
+    border-radius: 24px;
+    box-shadow: none;
+}
+.search-border:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.search-buttons input:hover{
+    border: 1px solid #c6c6c6;
+}
+.search-input{
+    outline: none;
+}
+.search-input input{
+    
+    flex: 100%;
+    display: flex;
+    padding: 12px;
+    border: none;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+}
+.grid-icon{
+    width: 18px;
+    height: 18px; 
+    vertical-align:middle; 
+    opacity: 0.5;
+}
+.grid-icon:hover{
+    opacity: 1;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search-svg img{
+    
+    opacity: 0.4;
+}
+
+.search-svg{
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+}
+.search-buttons{
+    text-align: center;
+    margin: 15px;
+}
+.search-buttons input{
+    margin: 11px 4px;
+    border-color: #f2f2f2;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 16px;
+    height: 36px;
+    cursor: pointer;
+    
+}
+.signin{
+    border: 1px solid #4285f4;
+    outline: none;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 2px;
+}
+.signin:hover{
+    border: 1px solid #4285f4;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 8px 0px 27px;
+}
+.footer-left a{
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    
+}
+.footer{
+    border: 1px solid #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #f2f2f2;
+}
+.footer-left{
+   margin: 10px 0px;
+   padding: 0px;
+   text-align: left;
+   display: inline-block;
+   width: 48%;
+}
+.footer-right{
+    margin: 10px 0px;
+   padding: 0px;
+   text-align: right;
+   display: inline-block;
+   width: 50%;
+}
+.footer-right a{
+    text-decoration: none;
+    color: #404040;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+.search-icon a:hover{
+    border-bottom: none;
+}

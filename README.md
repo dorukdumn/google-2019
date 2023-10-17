@@ -1,2 +1,4 @@
 # google-2019
-google-1998
+## Kodluyoruz - CSS Homework - Google 2019 With Html & CSS
+
+<img src="assests/readme-google-2019.png" alt="homepage">
